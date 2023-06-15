@@ -1,0 +1,255 @@
+/*fonte*/ 
+body{
+    font-family:'Battambang', sans-serif;
+    margin: 0;
+  }
+
+/*configurando o cabeçalho*/
+.topnav {
+    margin-top: 10px;
+    overflow: hidden;
+    display : flex;
+    flex-direction : row;
+}
+.topnav a {
+    color: #5b5b5b;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* mundando a cor do botao qnd passa o mouse em cima*/
+#botao {
+    transition: transform .2s;
+}
+#botao a:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 5px 3px #9cffd3;
+    color: black;
+}
+
+/*configurando e alinhando a logo + botoes*/
+.logo img{
+    height: auto;
+    width: 250px;
+    padding-left: 20px;
+}
+.botaoPerfil img{
+    width: 75px;
+    height: auto;
+    margin-left: 380px;
+    margin-top: 7px;
+}
+#botao{
+    margin-top: 25px;
+}
+
+/*configurando barrinha do cabeçalho*/
+.barrinha img{
+    width: 100%;
+    box-shadow: 0px 5px 3px rgb(144, 144, 144);
+}
+
+/*configurando o conteúdo*/
+.container {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 70px;
+    background-color: #D9D9D9;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.navbar {
+    /*margin-bottom: 350px;*/
+    background-color: #018E3E;
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgb(144, 144, 144);
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+#botao2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+}
+#botao2 {
+    padding: 30px;
+    transition: transform .2s;
+}
+#botao2 a:hover {
+        transform: scale(2.01);
+        color: rgb(54, 53, 53);
+}
+.navbar a {
+    display: inline;
+    margin-right: 10px;
+}
+#selecionar {
+    font-family:'Battambang', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 22px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#selecionar p {
+    margin: 0px;
+}
+.azul1  {
+    margin-top: 35px;
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 550px;
+    background-color: #5BA5C5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.azul1 p {
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 20px;
+}
+#data1 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 4px solid #018E3E;
+    border-radius: 40px;
+    line-height: 125px;
+    cursor: pointer;
+}
+#data1 a {
+    position: absolute;
+    top: 470px;
+    text-decoration: none;
+    color:#000000;
+    font-size: 40px;
+    left: 604px;
+    line-height: 0px;
+    top: 560px;
+}
+#data1 b {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    left: 604px;
+    cursor: pointer;
+    line-height: 0px;
+    top: 590px;
+}
+#data2 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 4px solid #018E3E;
+    border-radius: 40px;
+    line-height: 125px;
+    cursor: pointer;
+}
+#data2 a {
+    position: absolute;
+    top: 470px;
+    text-decoration: none;
+    color:#000000;
+    font-size: 40px;
+    left: 732px;
+    cursor: pointer;
+    line-height: 0px;
+    top: 560px;
+}
+#data2 b {
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    left: 733px;
+    cursor: pointer;
+    line-height: 0px;
+    top: 590px;
+}
+#data3 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 4px solid #018E3E;
+    border-radius: 40px;
+    line-height: 125px;
+    cursor: pointer;
+}
+#data3 a {
+    position: absolute;
+    top: 470px;
+    text-decoration: none;
+    color:#000000;
+    font-size: 40px;
+    left: 858px;
+    line-height: 0px;
+    top: 560px;
+}
+#data3 b {
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    left: 862px;
+    line-height: 0px;
+    top: 590px;
+}
+.azul2 {
+    width: 10%;
+    height: 35px;
+    margin-top: -20px;
+    margin-right: 16px;
+    border-radius: 25px;
+    background-color: #5BA5C5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border-style: none;
+    font-family:'Battambang', sans-serif;
+    cursor: pointer;
+}
+.abril {
+    position: absolute;
+    top: 500px;
+    left: 580px;
+}
+
+/*finalização ---------------------------------------------------------------------- */
+
+/*rodapé azul + redes sociais*/
+footer {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 40px; 
+    background-color: #1c2541;
+}
+.redes{
+    float: right;
+}
+.redes img{
+    width: auto;
+    height: 40px;
+    padding: 5px 5px;
+}
